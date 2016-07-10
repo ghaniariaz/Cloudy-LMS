@@ -1,0 +1,9 @@
+I WANT TO VIEW A THREAD
+
+I am on page "/cloudy/public/login"
+I fill field "username","derek"
+I fill field "password","asd123"
+I click "Login"
+I see in current url "/cloudy/public/portal"
+I am on page "/cloudy/public/portal/threads/7"
+I see "Thread"

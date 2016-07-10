@@ -1,0 +1,14 @@
+I WANT TO LOGIN AND LOGOUT AS A USER
+
+I am going to Login
+I am on page "/cloudy/public/login"
+I see "Login to your account"
+I have in database "users",{"name":"Jawad","suspended":false,"dob":"8-2-1980","email":"jawad@gmail.com","username":"asdqweasd12312546","password":"asd123","type":"student","school_id":1}
+I fill field "username","asdqweasd12312546"
+I fill field "password","asd123"
+I click "Login"
+I see in current url "/cloudy/public/portal"
+I am going to Logout
+I am on page "/cloudy/public/logout"
+I see "Login to your account"
+I see in current url "/cloudy/public/login"
